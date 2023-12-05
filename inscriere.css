@@ -1,0 +1,53 @@
+
+form label {
+    display: block; 
+    margin-bottom: 10px; 
+  }
+  
+ 
+  form input[type="text"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+ 
+  form button {
+    display: block; 
+    margin-top: 15px; 
+  }
+  form input[type="text"],
+form input[type="password"] {
+  width: 65%;
+  padding: 10px;
+  margin-bottom: 15px; 
+}
+form {
+    float: left;
+    margin-right: 20px; 
+  }
+ 
+  .container {
+    overflow: hidden;
+  }
+
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align:center;
+    margin:20px 10px;
+    border-radius:25px;
+    font-weight:bold;
+    border:2px solid #64CCC5 ;
+    background:transparent;
+    color: #ffff;
+    cursor:pointer;
+    position:relative;
+    overflow:hidden;
+}
