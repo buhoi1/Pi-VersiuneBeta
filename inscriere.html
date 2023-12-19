@@ -46,30 +46,36 @@
         </script>
     </head>
     <body>
-      <div class="navbar">
-      </div>
         <div class="background">
             <div class="shape"></div>
             <div class="shape"></div>
         </div>
         <div class="container">
         <form onsubmit="return validateEmail()" action="inscriere.php" method="POST">
-            <h3>Inregistrare Date</h3>
+            <h3>Inregistrare Date </h3>
             
-            <label for="name">Nume Compet</label>
-            <input type="text" placeholder="Nume Compet" id="name" name="name">
-            
-            <label for="age">Varsta</label>
-            <input type="number" placeholder="Varsta" id="age" name="age">
-            
-            <label for="email">Email</label>
-            <input type="text" placeholder="Email" id="email" name="email">
-        
-            <label for="password">Parola</label>
-            <input type="password" placeholder="Parola" id="password" name="password">
-        
-            <button type="submit" name="create_account"><span></span>Inscrie-te Acum</button>
-            
+            <form id="cs-form-490" name="Contact Form" method="post">
+              <label class="cs-label">
+                  Nume Complet
+                  <input class="cs-input" required type="text" id="name-490" name="name" placeholder="">
+              </label>
+              <label class="cs-label">
+                  E-mail(Universitar)
+                  <input class="cs-input" required type="text" id="email-490" name="email" placeholder="">
+              </label>
+              <label class="cs-label">
+                  Numar de Telefon
+                  <input class="cs-input" required type="text" id="phone-490" name="phone" placeholder="">
+              </label>
+              <label class="cs-label">
+                  Cum ne-ati descoperit?
+                  <input class="cs-input" type="text" id="find-490" name="find-us" placeholder="Retele socializare/Promovare fizica/Prieteni etc..">
+              </label>
+              <label class="cs-label">
+                Mesaj Aditional
+                <input class="cs-input" type="text" id="mesaj-490" name="mesaj" placeholder="Orice mesaj considerati">
+            </label>
+              <button class="cs-button-solid" type="submit">Trimite</button>
             
             <div class="error">
                 <span id="error-message"></span>
